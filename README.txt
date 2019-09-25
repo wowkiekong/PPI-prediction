@@ -1,7 +1,7 @@
 This matlab code proposes a novel computational model namely FCTP-WSRC to predict PPIs (protein-protein interactions) effectively.
+Users can test unknown PPI with the code to see the prediction.
 
 ********************File structure*********************
-
 <matlab code>:
     <data>: 
         Name_Data.mat 
@@ -23,12 +23,8 @@ This matlab code proposes a novel computational model namely FCTP-WSRC to predic
         WSRC_ROC.m                             # Results of ROC curves.
         
 ********************Introduction************************
-# File "data" contains Matein, Yeast and Human PPIs datasets which are downloaded from the DIP database.
-# Matein dataset contains 1428 pairs of interacting proteins, the Yeast dataset contains 5594 pairs of interacting proteins, and # the Human dataset contains 3899 pairs of interacting proteins.
-# N_protein_a and N_ptotein_b are non-interaction protein pairs.
-# P_protein_a and P_protein_b are interaction protein pairs.
-# Users can also use their own data sets for forecasting.
-# File "function" conteins the functions of the F-vector, composition (C) and transition (T) which are used to map each protein # sequence onto numeric feature vectors.
+# File "data" contains Matein, Yeast and Human PPIs datasets which are downloaded from the DIP database. Matein dataset contains 1428 pairs of interacting proteins, the Yeast dataset contains 5594 pairs of interacting proteins, and the Human dataset contains 3899 pairs of interacting proteins. N_protein_a and N_ptotein_b are non-interaction protein pairs. P_protein_a and P_protein_b are interaction protein pairs.
+# File "function" conteins the functions of the F-vector, composition (C) and transition (T) which are used to map each protein sequence onto numeric feature vectors.
 # File "scripts" contains main function and result representation function for PPI prediction.
 
 *******************parameters****************************
