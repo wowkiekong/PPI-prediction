@@ -1,4 +1,4 @@
-This file proposes a novel computational model namely FCTP-WSRC to predict PPIs (protein-protein interactions) effectively.
+This matlab code proposes a novel computational model namely FCTP-WSRC to predict PPIs (protein-protein interactions) effectively.
 
 ********************File structure*********************
 
